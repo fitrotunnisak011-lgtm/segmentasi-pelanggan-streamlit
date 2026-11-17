@@ -31,7 +31,7 @@ frequency = st.number_input(
 )
 
 monetary = st.number_input(
-    "Monetary (rupiah)", min_value=1, value=2500000
+    "Monetary (total belanja, £)", min_value=1.0, value=2500.0
 )
 
 # Tombol prediksi
